@@ -1,3 +1,7 @@
 {
-  "name": "new-rss-bridge"
+  "version": 2,
+    "name": "new-rss-bridge",
+    "builds": [
+        { "src": "*.php", "use": "@now/php" }
+    ]
 }
